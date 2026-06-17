@@ -343,5 +343,5 @@ class Logger:
 
 
 if __name__ == "__main__":
-    robot: Robot = Robot("robot.bot", stopped=0.5, name="dildo")
+    robot: Robot = Robot("robot.bot", stopped=0.5, name="robot")
     robot.execute()
