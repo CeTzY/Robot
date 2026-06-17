@@ -1,10 +1,29 @@
+name = "Демо"
+stopped = 0.3
+close = false
 
+// Красный квадрат
+color red
+width 2
+forward 80
+right 90
+forward 80
+right 90
+forward 80
+right 90
+forward 80
 
-// Квадрат
-forward 100
+// Перемещаемся
+penup
 right 90
-forward 100
-right 90
-forward 100
-right 90
-forward 100
+forward 120
+left 90
+pendown
+
+// Синий треугольник
+color blue
+forward 80
+right 120
+forward 80
+right 120
+forward 80
